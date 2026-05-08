@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "5MlnICuxrKw=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\47484\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.11\\microsoft.aspnetcore.openapi.9.0.11.nupkg.sha512",
+    "C:\\Users\\47484\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.\r\n  Response status code does not indicate success: 403 (Forbidden - User 'ff71460e-0b1e-6cb5-bf50-ce139d9cc607' lacks permission to complete this action. You need to have 'ReadPackages'. (DevOps Activity ID: ADB6ECE4-EB38-4E11-8CBE-430966D07D7F)).",
+      "projectPath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "filePath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.\r\n  Response status code does not indicate success: 403 (Forbidden - User 'ff71460e-0b1e-6cb5-bf50-ce139d9cc607' lacks permission to complete this action. You need to have 'ReadPackages'. (DevOps Activity ID: DA0504EA-5EEA-4610-9749-3980F74A3382)).",
+      "projectPath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "filePath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.\r\n  Response status code does not indicate success: 403 (Forbidden - User 'ff71460e-0b1e-6cb5-bf50-ce139d9cc607' lacks permission to complete this action. You need to have 'ReadPackages'. (DevOps Activity ID: ADB6DA1C-EB38-4E11-8CBE-430966D07D7F)).",
+      "projectPath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "filePath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.",
+      "projectPath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\47484\\source\\repos\\hackathon\\Hackathon.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
