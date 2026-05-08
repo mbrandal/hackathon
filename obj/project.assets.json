@@ -91,6 +91,7 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+        "C:\\Users\\47484\\source\\repos\\hackathon\\NuGet.Config",
         "C:\\Users\\47484\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -99,9 +100,7 @@
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
@@ -152,31 +151,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.\r\n  Response status code does not indicate success: 403 (Forbidden - User 'ff71460e-0b1e-6cb5-bf50-ce139d9cc607' lacks permission to complete this action. You need to have 'ReadPackages'. (DevOps Activity ID: ADB6ECE4-EB38-4E11-8CBE-430966D07D7F)).",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.\r\n  Response status code does not indicate success: 403 (Forbidden - User 'ff71460e-0b1e-6cb5-bf50-ce139d9cc607' lacks permission to complete this action. You need to have 'ReadPackages'. (DevOps Activity ID: DA0504EA-5EEA-4610-9749-3980F74A3382)).",
-      "libraryId": "Microsoft.AspNetCore.OpenApi"
-    },
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json.\r\n  Response status code does not indicate success: 403 (Forbidden - User 'ff71460e-0b1e-6cb5-bf50-ce139d9cc607' lacks permission to complete this action. You need to have 'ReadPackages'. (DevOps Activity ID: ADB6DA1C-EB38-4E11-8CBE-430966D07D7F)).",
-      "libraryId": "Microsoft.OpenApi"
-    },
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://felleskjopet.pkgs.visualstudio.com/_packaging/DigitaleFlater/nuget/v3/index.json."
-    }
-  ]
+  }
 }
