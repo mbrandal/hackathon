@@ -9,6 +9,8 @@ public class HackathonDb : DbContext
     public DbSet<Badge> Badges => Set<Badge>();
     public DbSet<Team> Teams => Set<Team>();
     public DbSet<TeamBadge> TeamBadges => Set<TeamBadge>();
+    public DbSet<ActivityLog> ActivityLogs => Set<ActivityLog>();
+    public DbSet<ScoreSnapshot> ScoreSnapshots => Set<ScoreSnapshot>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
